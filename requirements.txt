@@ -4,6 +4,7 @@ pandas
 pydeck
 streamlit
 jieba
+tqdm
 faiss-cpu                ==                1.7.4
 dashscope             ==                   1.13.6
 chromadb              ==                   0.4.22
