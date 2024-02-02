@@ -109,6 +109,7 @@ def run():
 
 
   if user_query := st.chat_input("Enter your query here"):
+      stream = ""
       with st.chat_message("user"):
           st.write(user_query)
       # Process the user's message using the conversation chain
