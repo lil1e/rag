@@ -1,0 +1,12 @@
+altair
+numpy
+pandas
+pydeck
+streamlit
+jieba
+faiss-cpu                ==                1.7.4
+dashscope             ==                   1.13.6
+chromadb              ==                   0.4.22
+langchain             ==                   0.0.354
+pypdf                 ==                   4.0.0
+PyPDF2                ==                   3.0.1
