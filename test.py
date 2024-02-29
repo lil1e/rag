@@ -21,7 +21,7 @@ import dashscope
 import os
 import time
 import jieba
-os.environ["DASHSCOPE_API_KEY"]="sk-a9b31177e828435a894628ceeb775831"
+os.environ["DASHSCOPE_API_KEY"]="sk-d139c49f73de48d5a9c7c86a6fd2db23"
 dashscope.api_key=os.environ["DASHSCOPE_API_KEY"]
 #langchian == 0.0.354
 
