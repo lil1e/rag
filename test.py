@@ -58,7 +58,7 @@ def get_vectorstore(text_chunks):
 def get_conversation_chain(vectorstore):
     memory = ConversationBufferWindowMemory(memory_key='chat_history', return_message=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
-        llm=tongyi.ChatTongyi(model_name='qwen-7b-chat'),
+        llm=tongyi.ChatTongyi(model_name='qwen-max'),
         retriever=vectorstore.as_retriever(),
         get_chat_history=lambda h: h,
         memory=memory
