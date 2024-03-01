@@ -125,7 +125,7 @@ def run():
        
       with st.chat_message("assistant"):
           #st.write_stream(stream)
-          st.write(stream)
+          st.write(response)
 
 
 if __name__ == "__main__":
