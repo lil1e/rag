@@ -78,7 +78,7 @@ def run():
   st.set_page_config(page_title="Chat with your assistant", layout="wide")
 
   st.title("🤠 Chat with your assistant")
-  st.header("请上传pdf文档,并不要使用梯子") 
+  st.header("Please upload relevant information first") 
 
   user_uploads = st.file_uploader("Upload your files", accept_multiple_files=True)
   if user_uploads is not None:
