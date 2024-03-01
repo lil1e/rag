@@ -124,7 +124,8 @@ def run():
           response = "Please upload a document first to initialize the conversation chain."
        
       with st.chat_message("assistant"):
-          st.write_stream(stream)
+          #st.write_stream(stream)
+          st.write(stream)
 
 
 if __name__ == "__main__":
